@@ -342,12 +342,18 @@ div.myavatar {
     background-color: green;
     width: 100%;
     height: 50px;
+    display: none !;
+}
+.nav h1 {
     display: none;
 }
 
 
-
 @media screen and (max-width:800px) {
+    .popularcard {
+        display: flex;
+        column-gap: 10px;
+    }
     .nav {
         background-color: black;
         width: 100%;
@@ -359,6 +365,7 @@ div.myavatar {
     .nav h1 {
         color: orangered;
         font-size: 20px;
+        display: block;
        
     }
     .left {
